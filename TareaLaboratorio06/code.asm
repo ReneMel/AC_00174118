@@ -1,5 +1,5 @@
 
-	org     100h
+    org     100h
 
 	section	.text
     call ModoTexto
@@ -60,7 +60,7 @@ ContraCorrecta:
     ret
 
 ContraIncorrecta:
-    mov     DX, loginfailed
+    mov     DX, loginfallido
     call    MoverCursor
     call    MostrarCadena
     ret
@@ -83,5 +83,5 @@ iterar:
 section .data
 password        db  'NATSU'
 login           db  'BIENVENIDO', "$"
-loginfailed     db  'INCORRECTO', "$"
+loginfallido     db  'INCORRECTO', "$"
 initialmmesage  db  'Ingrese Contra pls: ', "$"

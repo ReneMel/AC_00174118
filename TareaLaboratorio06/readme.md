@@ -1,0 +1,1 @@
+La contraseña del ejercicio 6 es "NATSU"
